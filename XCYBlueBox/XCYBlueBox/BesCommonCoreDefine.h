@@ -17,6 +17,8 @@
 
 #define kEnglishLanguage (@"en")
 
+#define kGermanLanguage (@"br")
+
 #define kLanguageChanged (@"AppLanguageChanged")
 
 #define kWeXLocalizedString(key, comment) \
