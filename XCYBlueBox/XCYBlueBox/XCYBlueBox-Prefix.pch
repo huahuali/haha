@@ -1,0 +1,36 @@
+//
+//  XCYSharKey-Prefix.pch
+//  XCYSharKey
+//
+//  Created by XCY on 15-6-22.
+//  Copyright (c) 2015年 XCY. All rights reserved.
+//
+
+#ifndef XCYSharKey_Prefix_Prefix_pch
+#define XCYSharKey_Prefix_Prefix_pch
+
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "XCYCUtil.h"
+#import "XCYBaseClass.h"
+#import "XCYBaseFuncMacro.h"
+#import "XCYUIKitAdditionsConfig.h"
+#import "XCYFundationAdditionsConfig.h"
+#import "XCYAppScreenMetrics.h"
+#import "XCYUIConfig.h"
+#import "XCYBESVersionConfig.h"
+#import "Masonry.h"
+#import "BesCommonCoreDefine.h"
+
+#endif
+
+
+#endif

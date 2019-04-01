@@ -1,0 +1,75 @@
+/* 
+  Localizable.strings
+  XCYBlueBox
+
+  Created by max on 2019/3/18.
+  Copyright © 2019年 XCY. All rights reserved.
+*/
+
+// XCYOTAViewController
+"XCYOTAViewController_Nav_Title" = "OTA 更新";
+"XCYOTAViewController_curUpgradeLabel_text" = "使用不同文件升级左右耳\n左耳升级文件:%@\n右耳升级文件:%@";
+"XCYOTAViewController_curUpgradeProgressLabel_text" = "未开始";
+"XCYOTAViewController_curUpgradeProgressLabel_complete_text" = "更新完成";
+"XCYOTAViewController_curVersionLabel_text" = "当前版本:\n--";
+"XCYOTAViewController_curUpgradeProgressLabel_interrupt_text" = "数据传输中断。(请勿锁定屏幕或切换app)";
+"XCYOTAViewController_curUpgradeProgressLabel_Alert_Msg1" = "您尚未选择要升级的设备";
+"XCYOTAViewController_curUpgradeProgressLabel_Alert_Msg2" = "您还没有选择要升级的文件";
+"XCYOTAViewController_curUpgradeProgressLabel_Alert_Msg3" = "您需要升级的文件不正确，请重新选择!";
+"XCYOTAViewController_curUpgradeProgressLabel_text1" = "升级...";
+"XCYOTAViewController_curUpgradeProgressLabel_text2" = "OTA模式已进入";
+"XCYOTAViewController_curUpgradeProgressLabel_text3" = "设备已连接";
+"XCYOTAViewController_selectDeviceFirst_Alert_Msg" = "请先选择设备";
+"XCYOTAViewController_ConnectDeviceFirst_Alert_Msg" = "请先连接设备";
+"XCYOTAViewController_curDeviceLabel_Connecting_text" = "%@ 正在连接...";
+"XCYOTAViewController_curDeviceLabel_failure_text" = "%@ 连接设备失败";
+"XCYOTAViewController_curDeviceLabel_connected_text" = "%@ 设备已连接";
+"XCYOTAViewController_curUpgradeProgressLabel_EnteringOTA_Mode_Title" = "进入OTA模式";
+"XCYOTAViewController_curUpgradeProgressLabel_EnteringOTA_Mode_Failure" = "进入OTA模式失败, -1";
+"XCYOTAViewController_curUpgradeProgressLabel_Connected_Transferring" = "连接, 传输数据...";
+"XCYOTAViewController_curUpgradeProgressLabel_Connected_Transferring2" = "连接, 传输数据 %d%%";
+"XCYOTAViewController_curVersionLabel_Text1" = "当前设备:%@\n版本号:%@";
+"XCYOTAViewController_curVersionLabel_Text2" = "当前设备:%@\n左耳版本号:%@\n右耳版本号:%@";
+"XCYOTAViewController_curVersionLabel_Text3" = "当前设备:%@\n右耳版本号:%@\n左耳版本号:%@";
+"XCYOTAViewController_curVersionLabel_Text4" = "当前版本:\n失败";
+"XCYOTAViewController_curVersionLabel_Text5" = "当前版本:\n使用Secondary Bootloader升级";
+"XCYOTAViewController_alert_Title" = "提示";
+"XCYOTAViewController_alert_submitButton_title" = "确定";
+"XCYOTAViewController_curUpgradeProgressLabel_Fail_Title" = "无法进入OTA模式，-3";
+
+"XCYOTAViewController_curDevicePromptLabel_text" = "当前选择的设备:";
+"XCYOTAViewController_changeDeviceButton_Title" = "选择设备";
+"XCYOTAViewController_startConnectingDeviceButton_Title" = "开始连接设备";
+"XCYOTAViewController_curUpgradePromptLabel_Title" = "当前的升级文件:";
+"XCYOTAViewController_choiceFileButton_Title" = "选择升级文件";
+"XCYOTAViewController_curUpgradeProgressPromptLabel_Title" = "当前升级进程";
+"XCYOTAViewController_curUpgradeProgressLabel_Title" = "未开始";
+"XCYOTAViewController_upgradeButton_Title" = "开始升级文件";
+"XCYOTAViewController_startGetCurrentVersion_Title" = "请稍等...";
+
+// XCYOTASettingViewController
+"XCYOTASettingViewController_Nav_Title" = "OTA 设置";
+"BesUpdataTypeSelectorView_contentArr_Title1" = "只升级左耳";
+"BesUpdataTypeSelectorView_contentArr_Title2" = "只升级右耳";
+"BesUpdataTypeSelectorView_contentArr_Title3" = "使用同一文件同时升级左右耳";
+"BesUpdataTypeSelectorView_contentArr_Title4" = "使用不同文件升级左右耳";
+"BesUpdataTypeSelectorView_titleLabel_Text" = "请选择左右耳升级方式";
+"BesUpdataTypeSelectorView_submitButton_Title" = "确定";
+
+// BesFileSelectComponentView
+"BesFileSelectComponentView_checkButton_Title" = "选择升级文件";
+
+// BesFileSelectView
+"BesFileSelectView_firstView_left_Title" = "选择左耳升级文件";
+"BesFileSelectView_firstView_right_Title" = "选择右耳升级文件";
+"BesFileSelectView_firstView_Title" = "选择升级文件";
+"BesFileSelectView_submitButton_Title" = "确定";
+"BesFileSelectView_cancelButton_Title" = "取消";
+
+// XCYOTANewUpdateBusiness
+"XCYOTANewUpdateBusiness_Timeout_UpdateFail_Msg" = "数据接收超时，升级失败";
+"XCYOTANewUpdateBusiness_CRC_CheckFail_Msg" = "升级失败，因为crc校验的value为空";
+"XCYOTANewUpdateBusiness_OTA_SettingFail_Msg" = "配置失败, 升级失败";
+"XCYOTANewUpdateBusiness_CRC_CheckFail_Msg2" = "升级失败，因为crc32校验的value为%@";
+"XCYOTANewUpdateBusiness_UpdateFile_LastPacketFail_Msg" = "升级失败，最后校验失败为空";
+"XCYOTANewUpdateBusiness_UpdateFile_Fail_Msg" = "升级失败";

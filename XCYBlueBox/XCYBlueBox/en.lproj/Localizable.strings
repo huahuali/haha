@@ -1,0 +1,76 @@
+/* 
+  Localizable.strings
+  XCYBlueBox
+
+  Created by max on 2019/3/18.
+  Copyright © 2019年 XCY. All rights reserved.
+*/
+
+// XCYOTAViewController
+"XCYOTAViewController_Nav_Title" = "OTA Upgrade";
+"XCYOTAViewController_curUpgradeLabel_text" = "Use different files to upgrade the left and right ears\nLeft ear upgrade file:%@\nRight ear upgrade file:%@";
+"XCYOTAViewController_curUpgradeProgressLabel_text" = "no start";
+"XCYOTAViewController_curUpgradeProgressLabel_complete_text" = "Upgrade is complete";
+"XCYOTAViewController_curVersionLabel_text" = "Current version:\n--";
+"XCYOTAViewController_curUpgradeProgressLabel_interrupt_text" = "Data transmission interrupt.. (do not lock the screen or switch app)";
+"XCYOTAViewController_curUpgradeProgressLabel_Alert_Msg1" = "You have not selected the device to upgrade";
+"XCYOTAViewController_curUpgradeProgressLabel_Alert_Msg2" = "You have not selected the file for the upgrade";
+"XCYOTAViewController_curUpgradeProgressLabel_Alert_Msg3" = "The file you need to upgrade is not correct, please re-select it!";
+"XCYOTAViewController_curUpgradeProgressLabel_text1" = "To upgrade...";
+"XCYOTAViewController_curUpgradeProgressLabel_text2" = "OTA mode has been entered";
+"XCYOTAViewController_curUpgradeProgressLabel_text3" = "Device connected";
+"XCYOTAViewController_selectDeviceFirst_Alert_Msg" = "Please select the device first";
+"XCYOTAViewController_ConnectDeviceFirst_Alert_Msg" = "Please connect the device first";
+"XCYOTAViewController_curDeviceLabel_Connecting_text" = "%@ Connecting device...";
+"XCYOTAViewController_curDeviceLabel_failure_text" = "%@ Connecting device failure";
+"XCYOTAViewController_curDeviceLabel_connected_text" = "%@ Device connected";
+"XCYOTAViewController_curUpgradeProgressLabel_EnteringOTA_Mode_Title" = "Entering OTA mode";
+"XCYOTAViewController_curUpgradeProgressLabel_EnteringOTA_Mode_Failure" = "Failure to enter OTA mode, -1";
+"XCYOTAViewController_curUpgradeProgressLabel_Connected_Transferring" = "Connected, transferring data...";
+"XCYOTAViewController_curUpgradeProgressLabel_Connected_Transferring2" = "Connected, transferring data %d%%";
+"XCYOTAViewController_curVersionLabel_Text1" = "Current connected device:%@\nversion:%@";
+"XCYOTAViewController_curVersionLabel_Text2" = "Current connected device:%@\nleft earbud version:%@\nright earbud version:%@";
+"XCYOTAViewController_curVersionLabel_Text3" = "Current connected device:%@\nright earbud version:%@\nleft earbud version:%@";
+"XCYOTAViewController_curVersionLabel_Text4" = "Current version:\nfailure";
+"XCYOTAViewController_curVersionLabel_Text5" = "Current version:\n使用Secondary Bootloader升级";
+"XCYOTAViewController_alert_Title" = "prompt";
+"XCYOTAViewController_alert_submitButton_title" = "sure";
+"XCYOTAViewController_curUpgradeProgressLabel_Fail_Title" = "Failure to enter OTA mode，-3";
+
+"XCYOTAViewController_curDevicePromptLabel_text" = "Currently selected device:";
+"XCYOTAViewController_changeDeviceButton_Title" = "Switch other devices";
+"XCYOTAViewController_startConnectingDeviceButton_Title" = "Start connecting device";
+"XCYOTAViewController_curUpgradePromptLabel_Title" = "Current upgrade file:";
+"XCYOTAViewController_choiceFileButton_Title" = "Select upgrade file";
+"XCYOTAViewController_curUpgradeProgressPromptLabel_Title" = "Current upgrade progress";
+"XCYOTAViewController_curUpgradeProgressLabel_Title" = "no start";
+"XCYOTAViewController_upgradeButton_Title" = "Start upgrading files";
+"XCYOTAViewController_startGetCurrentVersion_Title" = "waiting...";
+
+// XCYOTASettingViewController
+"XCYOTASettingViewController_Nav_Title" = "OTA Setting";
+"BesUpdataTypeSelectorView_contentArr_Title1" = "Only the left ear was upgraded";
+"BesUpdataTypeSelectorView_contentArr_Title2" = "Only the right ear was upgraded";
+"BesUpdataTypeSelectorView_contentArr_Title3" = "Use the same file to upgrade both ears at the same time";
+"BesUpdataTypeSelectorView_contentArr_Title4" = "Use different files to upgrade the left and right ears";
+"BesUpdataTypeSelectorView_titleLabel_Text" = "Please select left and right ear upgrade mode";
+"BesUpdataTypeSelectorView_submitButton_Title" = "sure";
+
+// BesFileSelectComponentView
+"BesFileSelectComponentView_checkButton_Title" = "Select upgrade file";
+
+// BesFileSelectView
+"BesFileSelectView_firstView_left_Title" = "Select the left ear upgrade file";
+"BesFileSelectView_firstView_right_Title" = "Select the right ear upgrade file";
+"BesFileSelectView_firstView_Title" = "Select upgrade file";
+"BesFileSelectView_submitButton_Title" = "sure";
+"BesFileSelectView_cancelButton_Title" = "cancel";
+
+// XCYOTANewUpdateBusiness
+"XCYOTANewUpdateBusiness_Timeout_UpdateFail_Msg" = "Data received timeout, upgrade failed";
+"XCYOTANewUpdateBusiness_CRC_CheckFail_Msg" = "The upgrade failed because the value of the CRC check is empty";
+"XCYOTANewUpdateBusiness_OTA_SettingFail_Msg" = "Configuration failed, upgrade failed";
+"XCYOTANewUpdateBusiness_CRC_CheckFail_Msg2" = "The upgrade failed because the value of the crc32 check is%@";
+"XCYOTANewUpdateBusiness_UpdateFile_LastPacketFail_Msg" = "Upgrade failed, last check failed to empty";
+"XCYOTANewUpdateBusiness_UpdateFile_Fail_Msg" = "Upgrade failed";
+
